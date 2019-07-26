@@ -1,56 +1,211 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>mtu9001</title>
-    <link href="//mincss.com/entireframework.min.css" rel="stylesheet" type="text/css">
-    <style>
-      .hero {
-        background: #eee;
-        padding: 20px;
-        border-radius: 10px;
-        margin-top: 1em;
-      }
-      .hero h1 {
-        margin-top: 0;
-        margin-bottom: 0.3em;
-      }
-      .c4 {
-        padding: 10px;
-        box-sizing: border-box;
-      }
-      .c4 h3 {
-        margin-top: 0;
-      }
-      .c4 a {
-        margin-top: 10px;
-        display: inline-block;
-      }
-      </style>
-  </head>
-  <body>
 
-    <nav class="nav" tabindex="-1" onclick="this.focus()">
-      <div class="container">
-        <a class="pagename current" href="#">mtu9001</a>
-        <a href="../news.html">news</a>
-        <a href="../projects.html">projects</a> 
-        <a href="../me.html">me</a>
-      </div>
-    </nav>
-    <button class="btn-close btn btn-sm">×</button>
+<head>
+	<meta charset="UTF-8">
+	<title>anthony johnson | resume & portfolio</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<script src="https://kit.fontawesome.com/25c7d1eb26.js"></script>
+</head>
 
-    <div class="container">
-<!--      <div class="hero">
-        <h1>hi.</h1>
-      </div> --!>
-      <h1>hi.</h1>
-      <div class="row">
-      <div class="col c4"><h3>news</h3>new ideas, thoughts, etc.<br><a href="../news.html" class="btn btn-a btn-sm smooth">gogogo!</a></div>
-      <div class="col c4"><h3>projects</h3>junky code, enough to get the job done<br><a href="../projects.html" class="btn btn-a btn-sm smooth">$ cat ~/project-list</a></div>    <div class="col c4"><h3>me</h3>about this guy. a big dork.<br><a href="../me.html" class="btn btn-c btn-sm smooth">whois</a></div>
-</div>
-    </div>
+<body>
+	<header>
+		<div class="header-div">
+			<h1>anthony johnson</h1>
+			<p>Systems Engineer. Network Architect. Developer. Consultant.</p>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">about</a></li>
+				<li><a href="#work">work</a></li>
+				<li><a href="#skills">skills</a></li>
+				<li><a href="#scripting">scripting</a></li>
+				<li><a href="#certs">certs</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<article class="about" id="about">
+			<div class="titles">
+				<h2>about me.</h2>
+			</div>
+			<section class="about">
+				<p>I'm a cyber security engineer based in Houston, TX with a focus on network infrastructure and
+					security.</p>
+				<p>With 20 years of hands on experience, I am well versed in many industries and can effectively
+					communicate with senior staff.</p>
+				<p>I am always curious. How to make things, processes, and myself better.</p>
+			</section>
+		</article>
+		<article class="work" id="work">
+			<div class="titles">
+				<h2>experience</h2>
+			</div>
+			<section class="job">
+				<h4>Kudelski Security - formerly M&S Technologies</h4>
+				<em class="jtitle">Senior Systems Engineer - 5/2016 - Present</em>
+				<ul>
+					<li>Design, build, and implement network and security solutions, recovery plans, and documentation.
+					</li>
+					<li>Develop and test network automation and orchestration techniques and mechanisms</li>
+					<li>Collaborate with project management, solutions architects, and engineers to deliver cost
+						effective solutions and strategic goals.</li>
+				</ul>
+			</section>
+			<section class="job">
+				<h4>JBPoindexter & Co., Inc.</h4>
+				<em class="jtitle">Network Engineer - 2/2015 - 5/2016</em>
+				<ul>
+					<li>Designed, built, and implemented secure Cisco ASR/ISR based routing backbone.</li>
+					<li>Managed international internal network of over 10,000 nodes.</li>
+					<li>Designed, built, and implemented security solutions for internal and external networks for 50+
+						international locations.</li>
+					<li>Monitored, improved, and ensured network performance, stability, security, and reliability.</li>
+				</ul>
+			</section>
+			<section class="job">
+				<h4>cPanel</h4>
+				<em class="jtitle">Systems Administrator - 8/2010 - 2/2015</em>
+				<ul>
+					<li>Built and implemented Cisco ASR/ISR routers, Catalyst/Nexus switches, Juniper EX switches,
+						Juniper SRX/SSG firewalls, Juniper SA/IC/MAG VPN appliances.</li>
+					<li>Monitored, improvied, and ensured network performance, stability, security, and reliability.
+					</li>
+					<li>Lead and provided training opportuniteies to team of systems administrators to achieve faster
+						turnaround of projects and daily tasks.</li>
+					<li>Managed ongoing communication with multiple department needs in relation to troubleshooting,
+						optimization, and deployment of systems.</li>
+				</ul>
+			</section>
+		</article>
+		<article class="skills" id="skills">
+			<div class="titles">
+				<h2>skills</h2>
+			</div>
+			<section class="database">
+				<ul>
+					<h4>Database</h4>
+					<li>MongoDB</li>
+					<li>MySQL</li>
+					<li>PostgreSQL</li>
+				</ul>
+			</section>
+			<section class="development">
+				<ul>
+					<h4>Development</h4>
+					<li>HTML/CSS/JS</li>
+					<li>Python</li>
+				</ul>
+			</section>
+			<section class="infosec">
+				<ul>
+					<h4>InfoSec Tools</h4>
+					<li>nessus</li>
+					<li>nmap</li>
+				</ul>
+			</section>
+			<section class="orchestration">
+				<ul>
+					<h4>Orchestration and Automation</h4>
+					<li>Ansible</li>
+					<li>FortiManager</li>
+					<li>Junos Space</li>
+					<li>Junos Space Network Director</li>
+					<li>Junos Space Security Director</li>
+					<li>Puppet</li>
+					<li>SaltStack</li>
+				</ul>
+			</section>
+			<section class="seim">
+				<ul>
+					<h4>SEIM</h4>
+					<li>Juniper Log Director</li>
+					<li>Fortinet FortiAnalyzer</li>
+					<li>Graylog</li>
+					<li>Splunk</li>
+				</ul>
+			</section>
+			<section class="virtualization">
+				<ul>
+					<h4>Virtualization</h4>
+					<li>KVM</li>
+					<li>VirtualBox</li>
+					<li>VMWare</li>
+				</ul>
+			</section>
+		</article>
+		<article class="scripts" id="scripting">
+			<div class="titles">
+				<h2>scripting</h2>
+			</div>
+			<section class="powershellscripts">
+				<ul>
+					<h4>PowerShell Scripting</h4>
+					<li><a href="#">item 1</a></li>
+					<li><a href="#">item 2</a></li>
+					<li><a href="#">item 3</a></li>
+					<li><a href="#">item 4</a></li>
+				</ul>
+			</section>
+			<section class="pythonscripts">
+				<ul>
+					<h4>Python Scripting</h4>
+					<li><a href="#">item 1</a></li>
+					<li><a href="#">item 2</a></li>
+					<li><a href="#">item 3</a></li>
+					<li><a href="#">item 4</a></li>
+				</ul>
+			</section>
+		</article>
+		<article class="certs" id="certs">
+			<div class="titles">
+				<h2>certs</h2>
+			</div>
+			<section class="fortinet">
+				<ul>
+					<h4>Fortinet</h4>
+					<li><i clas="nse-logo"></i>NSE1</li>
+					<li><i clas="nse-logo"></i>NSE2</li>
+					<li><i clas="nse-logo"></i>NSE3</li>
+					<li><i clas="nse-logo"></i>NSE4</li>
+					<li><i clas="nse-logo"></i>NSE5</li>
+				</ul>
+			</section>
+			<section class="JNPR">
+				<ul>
+					<h4>Juniper</h4>
+					<li><a href="https://www.youracclaim.com/badges/bf6dddba-d1d7-426b-b99c-f1273ed6be76/public_url">JNCIA
+							x 3 - Junos, Security, Design</a></li>
+					<li><a
+							href="https://www.youracclaim.com/badges/0d6423f9-6462-4295-92e0-e5a10747a22a/public_url">JNCIS-SEC</a>
+					</li>
+					<li><a
+							href="https://www.youracclaim.com/badges/76d7ecad-1b86-43a1-b506-fbc254583534/public_url">JNCIS-ENT</a>
+					</li>
+				</ul>
+			</section>
+			<section class="pulse">
+				<ul>
+					<h4>Pulse Secure</h4>
+					<li><i clas="pps-logo"></i>PPS</li>
+					<li><i clas="pcs-logo"></i>PCS</li>
+				</ul>
+			</section>
+		</article>
+		<article class="contact" id="contact">
+			<div class="titles">
+				<h2>contact me.</h2>
+			</div>
+			<section class="contact">
+				<a href="mailto:anthony.joseph.johnson@gmail.com"><i class="fas fa-at fa-lg"></i></a>
+				<a href="https://github.com/mtu9001"><i class="fab fa-github-square fa-lg"></i></a>
+				<a href="https://www.linkedin.com/in/anthonyjohnson/"><i class="fab fa-linkedin fa-lg"></i></a>
+			</section>
+		</article>
+	</main>
+	<footer>
+	</footer>
+</body>
 
-  </body>
 </html>
